@@ -3,11 +3,7 @@ body {
 	padding: 0;
 }
 
-.navstyle {
-	  background-color: #000;
-}
-
-.navstyle a{
+.navstyle a ,{
 	color: #fff;
 	text-decoration: none;
 }
