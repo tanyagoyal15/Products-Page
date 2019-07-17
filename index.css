@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navstyle {
+	  background-color: #000;
+}
+
+.navstyle a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav-item {
+	display: flex;
+	justify-content: space-around;
+	float: right;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  margin-top: 40px;
+}
+
+  .thumbnail {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding: 0;
+  box-shadow: 0 7px 16px 0 rgba(50, 50, 50, 0.2);
+}
+
+.item-name {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  padding-top: 8px;
+}
+
+.item-price {
+  float: left;
+}
+
+  .items .item {
+    position: relative;
+    overflow: hidden;
+  }
+  .items .item img {
+    margin: 0 15% ;
+    width: 200px;
+    height: 250px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .items .overlay {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease-out;
+  }
+  .items .item:hover img {
+    transform: scale(1.2);
+  } 
+  .items .item:hover .overlay {
+    opacity: 0.85;
+  }
+  .items .item:hover img {
+    transform: scale(1.2);
+  } 
+  .items .work-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .items .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .items .work-content {
+    color: #fff;
+  }
+  .items .work-content h3 {
+    margin-top: 0;
+  }
+  .items .work-content p {
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 35px;
+  }
+.cart-btn {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 12px;
+  box-shadow: 0 0 7px 0 rgba(56, 56, 56, 0.2);
+  transform: scale(1);
+    }
+
+
+.cart-btn:hover, .cart-btn:focus {
+  background-color: #1928E3;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  transform: scale(1.09);
+}
